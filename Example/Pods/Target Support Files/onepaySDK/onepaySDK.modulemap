@@ -1,0 +1,6 @@
+framework module onepaySDK {
+  umbrella header "onepaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

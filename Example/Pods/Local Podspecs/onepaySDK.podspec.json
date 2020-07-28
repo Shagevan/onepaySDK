@@ -1,0 +1,22 @@
+{
+  "name": "onepaySDK",
+  "version": "0.1.0",
+  "summary": "A short description of onepaySDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shagevan7@gmail.com/onepaySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shagevan7@gmail.com": "parameswaran.shagevan@singtel.com"
+  },
+  "source": {
+    "git": "https://github.com/shagevan7@gmail.com/onepaySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "onepaySDK/Classes/**/*"
+}

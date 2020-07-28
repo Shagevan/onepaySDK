@@ -1,0 +1,16 @@
+PODS:
+  - onepaySDK (0.1.0)
+
+DEPENDENCIES:
+  - onepaySDK (from `../`)
+
+EXTERNAL SOURCES:
+  onepaySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  onepaySDK: 0b024fae69456ef71326bd9081993c1242cdee36
+
+PODFILE CHECKSUM: ef955fb66842b09053f3d77b7de21625017d2b1e
+
+COCOAPODS: 1.9.3
