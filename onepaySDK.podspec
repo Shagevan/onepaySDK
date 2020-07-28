@@ -18,19 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'TODO: Add long description of the pod here.'
                        DESC
 
-  s.homepage         = 'https://github.com/shagevan7@gmail.com/onepaySDK'
+  s.homepage         = 'https://github.com/Shagevan/onepaySDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shagevan7@gmail.com' => 'parameswaran.shagevan@singtel.com' }
-  s.source           = { :git => 'https://github.com/shagevan7@gmail.com/onepaySDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Shagevan/onepaySDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
+  
 
-  s.source_files = 'onepaySDK/Classes/**/*'
+  s.source_files = 'Source/**/*.Swift'
+  s.Swift_version = '5.0'
+  
+  s.platforms = {
+    "ios": "12.0"
+   }
   
   # s.resource_bundles = {
   #   'onepaySDK' => ['onepaySDK/Assets/*.png']
